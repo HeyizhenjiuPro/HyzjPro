@@ -1,0 +1,15 @@
+server:
+  port: 8080
+  servlet:
+    path: /Hyzj
+
+spring:
+  messages:
+    encoding: UTF-8
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/dbgirl?useSSL=false
+    username: root
+    password: 1234
+  thymeleaf:
+    cache: false
